@@ -12,7 +12,7 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 #### Learning Objectives:
 
 #### Requirements & Tools:
----
+--
 1. Microsoft Azure Account
 2. Third-party API: [ipgeolocation.io](https://ipgeolocation.io/)
 3. Remote Desktop Protocol (RDP)
@@ -21,7 +21,7 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 
 
 #### Step 1: Create a Microsoft Azure Account
----
+--
 1. Create a free account on [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/search?ef_id=_k_CjwKCAiAmrS7BhBJEiwAei59i3nqC3P5eSWkXJuQuRKl1vvCL5bVSqYkn9AK-M-MmtREPbZqCM1HmBoCZqcQAvD_BwE_k_&OCID=AIDcmmfq865whp_SEM__k_CjwKCAiAmrS7BhBJEiwAei59i3nqC3P5eSWkXJuQuRKl1vvCL5bVSqYkn9AK-M-MmtREPbZqCM1HmBoCZqcQAvD_BwE_k_&gad_source=1&gclid=CjwKCAiAmrS7BhBJEiwAei59i3nqC3P5eSWkXJuQuRKl1vvCL5bVSqYkn9AK-M-MmtREPbZqCM1HmBoCZqcQAvD_BwE)
 2. New accounts recieve a $200 credit which will help with this lab.
 #### Step 2
