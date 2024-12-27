@@ -10,8 +10,6 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 ### Description:
 ---
 
-### Learning Objectives:
----
 
 ### Requirements & Tools:
 ---
@@ -30,11 +28,41 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 2. New accounts recieve a $200 credit.
 ### Step 2: Deploy and set up a Virtual Machine as a honeypot
 ---
+* Start by creating the Virtual Machine (VM)
+  
+![image](https://github.com/user-attachments/assets/29c6cd0a-91f2-469e-a064-a8f5eb99ce69)
 
-### Step 3: 
+* Create Username and Passport
+
+![image](https://github.com/user-attachments/assets/6314c575-b371-4e05-b36a-a511ac714048)
+
+
+![image](https://github.com/user-attachments/assets/01f3b16d-e865-4568-a34d-bb94dd96a6f0)
+
+* Default Disk Settings
+  
+* Go to Networking, switch from basic to advanced
+  
+  ![image](https://github.com/user-attachments/assets/9cabfaa7-0ca0-49f8-bd2e-10a385f15333)
+
+  * Delete current inbound rule and create new inbound rule
+
+![image](https://github.com/user-attachments/assets/f6e31f8f-347d-432c-ba51-a2a14b42a765)
+
+![image](https://github.com/user-attachments/assets/16823d5a-6aac-4be6-8b4e-ecd532f1a514)
+
+* Deploy Virtual Machine
+
+![image](https://github.com/user-attachments/assets/525b9200-cdd4-4991-9cea-bd8c0712598e)
+
+### Step 3: Log Analytics Workspace
 ---
+* Select "Create Log Analytics Workspace" and place it in the same resource group
+* Add it to the same region you selected
 
-### Step 4
+  ![image](https://github.com/user-attachments/assets/987b1652-fe38-44fe-b24e-8354728d2c56)
+
+### Step 4: Setup Microsoft Defender for Cloud
 ---
 
 ### Step 5
@@ -46,5 +74,7 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 ### Step 11
 ### Step 12
 
+### Learning Objectives Completed:
+---
 
 
