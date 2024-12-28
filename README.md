@@ -41,7 +41,7 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 
 * Default Disk Settings
   
-* Go to Networking, switch from basic to advanced
+  * Go to Networking, switch from basic to advanced
   
   ![image](https://github.com/user-attachments/assets/9cabfaa7-0ca0-49f8-bd2e-10a385f15333)
 
@@ -64,8 +64,28 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 
 ### Step 4: Setup Microsoft Defender for Cloud
 ---
+* Search for "Microsoft Defender for Cloud"
+* Under Management navigate to "Environment settings", open subscription and the Analytics Workspace named
+  
+![image](https://github.com/user-attachments/assets/fe3a0001-928b-4c8a-9e70-756af883a315)
 
-### Step 5
+* Go into Defender plans
+* Turn both Cloud Security Posture Management and Servers to ON. 
+* Leave SQL servers on machines OFF
+
+![image](https://github.com/user-attachments/assets/d8190399-7640-441d-9367-1a67e4264d2d)
+
+* Select All events under data collection
+
+![image](https://github.com/user-attachments/assets/f0b99ba9-00ee-4089-92db-c2b5fd58fc6e)
+
+
+* Click "Save" for each
+  
+### Step 5: Connect the Log Analytics Workspace to the Virtual Machine
+---
+
+
 ### Step 6
 ### Step 7
 ### Step 8
