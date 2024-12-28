@@ -85,14 +85,41 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 ### Step 5: Connect the Log Analytics Workspace to the Virtual Machine
 ---
 
+* Go to Log Analytics Workspaces and Virtual Machines
+* Hit connect
 
-### Step 6
-### Step 7
+![image](https://github.com/user-attachments/assets/ac8f4608-2fb2-45f8-8461-b456d90fbe3e)
+
+![image](https://github.com/user-attachments/assets/00c23dc1-1810-402b-8005-6e3bc02e9097)
+
+### Step 6: Microsoft Sentinel
+---
+
+* Search for "Microsoft Sentinel"
+* Connect workspace
+* Click Log Analytics Workspace name and Add
+  
+  ![image](https://github.com/user-attachments/assets/63220bfc-a658-48cb-bfc6-54591663803d)
+
+### Step 7: Disabling the Virtual Machine's Firewall
+---
+
 ### Step 8
+---
+
 ### Step 9
+---
+
+
 ### Step 10
+---
+
 ### Step 11
+---
+
 ### Step 12
+---
+
 
 ### Learning Objectives Completed:
 ---
