@@ -157,16 +157,13 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 
 * Finally click create
 
-
-
-
-### Step 10
+### Step 10: Query the Custom Log with KQL
 ---
 
-### Step 11
+### Step 11: Create World Attack Map in Microsoft Sentinel
 ---
 
-### Step 12
+### Step 12: Shut Down Resources
 ---
 
 
