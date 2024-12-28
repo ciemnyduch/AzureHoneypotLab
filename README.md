@@ -32,7 +32,7 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
   
 ![image](https://github.com/user-attachments/assets/29c6cd0a-91f2-469e-a064-a8f5eb99ce69)
 
-* Create Username and Passport
+* Create Username and Password
 
 ![image](https://github.com/user-attachments/assets/6314c575-b371-4e05-b36a-a511ac714048)
 
@@ -108,18 +108,56 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 * Type wf.msc in Start, then go to windows Defender Firewall Properties and turn the firewall off for Domain, Private and Public Profiles.
   
 ![image](https://github.com/user-attachments/assets/8997cdbc-0951-4610-a45c-53ccacd6f1eb)
-
   
 * Ping the VM from your host
+  
+![image](https://github.com/user-attachments/assets/33bd436e-2232-4d6e-941c-dceda9306aa7)
 
 
 
 
-### Step 8
+### Step 8: Scripting the Security Log Exporter
 ---
 
-### Step 9
+* Copy this [script](https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1) (Authored by Joshua Madakor)
+  
+  ![image](https://github.com/user-attachments/assets/2b62bfb2-1d27-44df-94fa-d06c57b38baf)
+
+* Open the script in Powershell ISE on the VM
+  
+  ![image](https://github.com/user-attachments/assets/00fd8afa-c931-4f7b-a7bd-63e871ae30a8)
+
+* This next part requires an account with [ipgeolocation.io](https://ipgeolocation.io/)
+* Use the API key and paste it in place of the API key in the script
+* Save the script as "log-exporter"
+
+  * Run the script and navigate to C:\ProgramData\failed_rdp
+  * Copy the contents of failed_rdp
+  * Warning: don't share your API key
+
+### Step 9: Creating a custom log in Log Analytics Workspace
 ---
+
+* In Log Analytics Workspace create a custom log by selecting Tables and New custom log (MMA-based)
+* This allows data from the previous script to be ingested
+
+![image](https://github.com/user-attachments/assets/ed13ac1d-ff19-4a60-b2cb-b18d5ca381bf)
+
+* Select the copied "failed_rdp.log" file as the log sample
+
+![image](https://github.com/user-attachments/assets/82da1910-da41-4ccb-b4db-fc2574f165d6)
+
+* Default settings for Record delimiter
+
+  * Choose Windows for Collection paths
+  * For the path put: C:\ProgramData\failed_rdp.log
+  * Name the custom log
+  
+![image](https://github.com/user-attachments/assets/0b79d68b-983e-4a30-a9f1-0e14b0ef1216)
+
+* Finally click create
+
+
 
 
 ### Step 10
