@@ -104,6 +104,17 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 ### Step 7: Disabling the Virtual Machine's Firewall
 ---
 
+* Log into the Virtual Machine via RDP
+* Type wf.msc in Start, then go to windows Defender Firewall Properties and turn the firewall off for Domain, Private and Public Profiles.
+  
+![image](https://github.com/user-attachments/assets/8997cdbc-0951-4610-a45c-53ccacd6f1eb)
+
+  
+* Ping the VM from your host
+
+
+
+
 ### Step 8
 ---
 
