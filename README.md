@@ -159,12 +159,33 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 
 ### Step 10: Query the Custom Log with KQL
 ---
-
-
-
+* Use this KQL (Kusto Query Language) command: FAILED_RDP_WITH_GEO_CL
+  * This will show you the failed RDP attempts
+  * It may take about 10-15 minutes for Azure to sync the VM and Log Analytics
+![image](https://github.com/user-attachments/assets/fc32afc0-fbb6-4e13-bad7-9bb2f9870e37)
 
 ### Step 11: Create World Attack Map in Microsoft Sentinel
 ---
+```
+ FAILED_LOG_GEO_CL
+ |extend username = extract(@"username:([^,]+)", 1, RawData),
+         timestamp = extract(@"timestamp:([^,]+)", 1, RawData),
+         latitude = extract(@"latitude:([^,]+)", 1, RawData),
+         longitude = extract(@"longitude:([^,]+)", 1, RawData),
+         sourcehost = extract(@"sourcehost:([^,]+)", 1, RawData),
+         state = extract(@"state:([^,]+)", 1, RawData),
+         label = extract(@"label:([^,]+)", 1, RawData),
+         destination = extract(@"destinationhost:([^,]+)", 1, RawData),
+         country = extract(@"country:([^,]+)", 1, RawData)
+ |where destination != "samplehost"
+ |where sourcehost != ""
+ |summarize event_count=count() by timestamp, label, country, state, sourcehost, username, destination, longitude, latitude
+```
+![image](https://github.com/user-attachments/assets/cd2758c4-3176-4cf9-90b3-7a1eb144a0c4)
+
+![image](https://github.com/user-attachments/assets/5a65d909-987c-43dd-9ce8-b720ce938468)
+
+
 
 ### Step 12: Shut Down Resources
 ---
