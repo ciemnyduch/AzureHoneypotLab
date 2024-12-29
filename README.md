@@ -160,6 +160,9 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 ### Step 10: Query the Custom Log with KQL
 ---
 
+
+
+
 ### Step 11: Create World Attack Map in Microsoft Sentinel
 ---
 
