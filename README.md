@@ -4,8 +4,6 @@
 ##Thumbnail here
 
 
-Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=RoZeVbbZ0o0&list=PL_MvTIq1Tl-X04__sDhuQ89qo-g72DaBt&index=4&ab_channel=JoshMadakor)
-
 
 ### Description:
 ---
@@ -186,7 +184,6 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 ![image](https://github.com/user-attachments/assets/5a65d909-987c-43dd-9ce8-b720ce938468)
 
 
-
 ### Step 12: Shut Down Resources
 ---
 
@@ -194,4 +191,4 @@ Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=R
 ### Learning Objectives Completed:
 ---
 
-
+Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=RoZeVbbZ0o0&list=PL_MvTIq1Tl-X04__sDhuQ89qo-g72DaBt&index=4&ab_channel=JoshMadakor)
