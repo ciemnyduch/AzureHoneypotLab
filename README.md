@@ -7,7 +7,7 @@
 
 ### Description:
 ---
-
+This project involves a honeypot which is a virtual trap to lure attackers, and collect logs using a SIEM (Security Information and Event Management System) based on geolocation and failed RDP attempts. This project will display a world map and event count via country/region.
 
 ### Requirements & Tools:
 ---
