@@ -204,9 +204,10 @@
 
 ### Learning Objectives Completed:
 ---
-*
-*
-*
-*
+* Utilization of KQL to query the logs
+* Windows Security Event logs
+* Visualization of attack data on a dashboard with Workbooks
+* Hands-on experience and working knowledge of a SIEM log Management Tool (Microsoft's Azure Sentinel)
+* Configuration & Deployment of Azure resources such as virtual machines, Log Analytics Workspaces, and Azure Sentinel
 
 Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=RoZeVbbZ0o0&list=PL_MvTIq1Tl-X04__sDhuQ89qo-g72DaBt&index=4&ab_channel=JoshMadakor)
