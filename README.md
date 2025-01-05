@@ -1,10 +1,8 @@
 # Microsoft Azure Sentinel (SIEM) Honeypot Lab | Attack Map
 
 
-##Thumbnail here
 
-
-
+![F201B976-918E-46EC-B7B5-0EF307BFDD62](https://github.com/user-attachments/assets/17d80c1f-8a23-4324-a4d4-e61905845fa4)
 ### Description:
 ---
 This project involves a honeypot which is a virtual trap to lure attackers, and collect logs using a SIEM (Security Information and Event Management System) based on geolocation and failed RDP attempts. This project will display a world map and event count via country/region.
