@@ -164,6 +164,11 @@
 
 ### Step 11: Create World Attack Map in Microsoft Sentinel
 ---
+
+* Go to Microsoft Sentinel > Workbooks > Add workbook
+* Edit the workbook and remove the default widgets
+* Add a new query and paste the KQL query below:
+
 ```
  FAILED_LOG_GEO_CL
  |extend username = extract(@"username:([^,]+)", 1, RawData),
@@ -179,6 +184,10 @@
  |where sourcehost != ""
  |summarize event_count=count() by timestamp, label, country, state, sourcehost, username, destination, longitude, latitude
 ```
+* Run the Query
+* Configure the data to visualize the map
+* Make sure metric setting is configured to label so that countries names display
+  
 ![image](https://github.com/user-attachments/assets/cd2758c4-3176-4cf9-90b3-7a1eb144a0c4)
 
 ![image](https://github.com/user-attachments/assets/5a65d909-987c-43dd-9ce8-b720ce938468)
@@ -187,8 +196,17 @@
 ### Step 12: Shut Down Resources
 ---
 
+* Search for "Resource groups" > name of resource group > Delete resource group
+* Check the Apply force delete for selected Virtual machines and Virtual machine scale sets box
+* Select Delete
+
+* This part is important as to not incur fees, always deprovision the resources
 
 ### Learning Objectives Completed:
 ---
+*
+*
+*
+*
 
 Credit to Joshua Madakor for this lab! [Video](https://www.youtube.com/watch?v=RoZeVbbZ0o0&list=PL_MvTIq1Tl-X04__sDhuQ89qo-g72DaBt&index=4&ab_channel=JoshMadakor)
